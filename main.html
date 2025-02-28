@@ -3,31 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Dog Adoption Application</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <form action="" method="get">
-        <label for="name">Name</label>
-        <input type="text" id="name" placeholder="Name">
-        <br>
-        <label for="phone">Phone Number</label>
-        <input type="text" id="phone" placeholder="Phone Number">
-        <br>
-        <label for="address">Address</label>
-        <input type="text" id="address" placeholder="Address">
-        <br>
-        <input type="checkbox" name="" id="checkbox"> Have you ever lived with a Dog before?
-        <br>
-		 <label>Please select your preferred breeds:</label>
-        <br>
-        <input type="radio" value="Shitsuz" name="Please select your preferred breeds:"> Shitsuz <!--Male name attribute is use to select only one-->
-        <br>
-        <input type="radio" value="Labrabor" name="Please select your preferred breeds:"> Labrabor
-        <br>
-        <input type="radio" value="Rotwiller" name="Please select your preferred breeds:"> Rotwiller
-        <br>
-		 <input type="submit" id="submit" value="Submit">
-        <br>
-    </form>
+        <form action="#" method="get">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" placeholder="Name">
+                <br>
+                <label for="phone">Phone Number:</label>
+                <input type="text" id="phone" name="phone" placeholder="Phone Number">
+                <br>
+                <label for="address">Address:</label>
+                <input type="text" id="address" name="address" placeholder="Address">
+                <br>
+                <label for="dog-experience">Have you ever lived with a Dog before?</label>
+                <input type="checkbox" id="dog-experience" name="dog-experience" value="yes">
+                <br>
+                <label for="breeds">Please select your preferred breeds:</label>
+                <select id="breeds" name="breeds" multiple>
+                    <option value="labrador">Labrador Retriever</option>
+                    <option value="golden-retriever">Golden Retriever</option>
+                    <option value="beagle">Beagle</option>
+                    <option value="bulldog">Bulldog</option>
+                    <option value="poodle">Poodle</option>
+                </select>
+                <br>
+                <button type="submit">Submit</button>
 </body>
 </html>
